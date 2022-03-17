@@ -3,3 +3,6 @@ build:
     web: Dockerfile
 run:
   web: node ./src/api/server.js
+release:
+  command:
+    - npm run release
