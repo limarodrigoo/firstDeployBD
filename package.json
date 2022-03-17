@@ -7,7 +7,7 @@
     "test": "jest tests",
     "start": "node src/api/server",
     "dev": "nodemon src/api/server",
-    "release": "npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all" 
+    "release": "npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
   "keywords": [],
   "author": "",
