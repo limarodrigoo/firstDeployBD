@@ -1,10 +1,5 @@
 build:
   docker:
     web: Dockerfile
-    worker: worker/Dockerfile
-release:
-  command:
-    - npm run release
-  image: worker
 run:
-  web: node ./src/api/server.js
+  web: npm run release && node ./src/api/server.js
