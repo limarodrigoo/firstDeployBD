@@ -8,8 +8,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Instala o node com a versão
       uses: actions/setup-node@v1
-        with:
-          node-version: 14
+      with:
+        node-version: 14
     - name: Install modules
       run: npm install
     - name: Run ESLint
